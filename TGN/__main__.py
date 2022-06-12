@@ -81,7 +81,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-────「 [GodfatherBot](https://telegra.ph/file/bfa2fbaf65ac04fad78ee.jpg) 」────
+────「 [Tezza Robot](https://telegra.ph/file/a8cc05eb6490cf23a57aa.jpg) 」────
 ʜᴇʏ! {}
 ɪ ᴀᴍ 𝐆𝐨𝐝𝐟𝐚𝐭𝐡𝐞𝐫𝐛𝐨𝐭 ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴀᴅᴠᴀɴᴄᴇ ɢʀᴏᴜᴏ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ᴀ ʟᴏᴛ ᴏғ sᴘᴇᴄɪᴀʟɪᴛʏ.
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
@@ -99,15 +99,15 @@ I have lots of handy features such as:
 buttons = [
     [
         InlineKeyboardButton(
-            text="💕 Add To Your Group 💕", url="t.me/TGN_Ro_bot?startgroup=new"),
+            text="Add Me To Your Group", url="t.me/Tezza_Robot?startgroup=new"),
     ],
     [                  
                        InlineKeyboardButton(
-                             text="Support👥",
-                             url=f"https://t.me/GodfatherSupport"),
+                             text="Support",
+                             url=f"https://t.me/tezzasupportgroup"),
                        InlineKeyboardButton(
-                             text="Updates📡",
-                             url=f"https://t.me/The_Godfather_Network"),
+                             text="Updates",
+                             url=f"https://t.me/tezzasupportchannel"),
     ],
     [
         InlineKeyboardButton(
@@ -119,7 +119,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="Donate 🌹", 
+            text="Donate", 
             callback_data="shukurenai_donate"),
     ],
 
@@ -130,7 +130,7 @@ HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
 HELP_MSG = "Click the button below to get help manu in your pm."
-DONATE_STRING = """Contact to **@Godfatherakkii**"""
+DONATE_STRING = """Contact to ****"""
 HELP_IMG = "https://telegra.ph/file/d394e1486b4fa1cfcb322.jpg"
 GROUP_IMG = "https://telegra.ph/file/3f3c3af0e2236daad0dd2.jpg"
 
