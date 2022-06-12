@@ -130,9 +130,9 @@ HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
 HELP_MSG = "Click the button below to get help manu in your pm."
-DONATE_STRING = """Contact to ****"""
-HELP_IMG = "https://telegra.ph/file/d394e1486b4fa1cfcb322.jpg"
-GROUP_IMG = "https://telegra.ph/file/3f3c3af0e2236daad0dd2.jpg"
+DONATE_STRING = """Contact to **@Tezza_Robot**"""
+HELP_IMG = "https://telegra.ph/file/bb2eee84e44dc598c99e7.jpg"
+GROUP_IMG = "https://telegra.ph/file/9c3b714fda09d8ff67e1f.jpg"
 
 
 
@@ -247,20 +247,11 @@ def start(update: Update, context: CallbackContext):
                 disable_web_page_preview=False,
             )
     else:
-        first_name = update.effective_user.first_name
-        update.effective_message.reply_photo(
-             GROUP_IMG, caption= "*Hey {},*\n*GodfatherBot is here*\n*Power lavel time* : {} ".format(
-             first_name,uptime
+        update.effective_message.reply_text(
+            "ʜᴇʟʟᴏ! ɪ'ᴍ ᴀʟɪᴠᴇ".format(
+                
             ),
-            parse_mode=ParseMode.MARKDOWN,
-        reply_markup=InlineKeyboardMarkup(
-                [
-                  [
-                  InlineKeyboardButton(text="✧ Support ", url=f"https://t.me/GodfatherSupport"),
-                  InlineKeyboardButton(text="✧ Updates ", url=f"t.me/The_Godfather_Network"),
-                  ]
-                ]
-            ),
+            parse_mode=ParseMode.HTML,
         )
        
 
